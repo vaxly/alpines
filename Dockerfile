@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN addgroup -S alpine && adduser -S alpine -G alpine
+RUN addgroup -S alpines && adduser -S -G alpine alpines
 
 USER alpine
 
