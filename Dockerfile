@@ -5,6 +5,7 @@ RUN apk add --no-cache \
   ca-certificates \
   bash
   
-RUN addgroup -S alpines && adduser -S -G alpine alpines
+RUN addgroup -S alpine && adduser -S alpine -G alpine
 
 USER alpine
+
